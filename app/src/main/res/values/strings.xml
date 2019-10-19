@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">project_five</string>
+    <string name="ewm">扫一扫</string>
+    <string name="okhttp">okhttp getAsynHttp请求</string>
+</resources>

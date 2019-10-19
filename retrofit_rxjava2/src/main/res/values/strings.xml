@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Retrofit_Rxjava2</string>
+    <string name="zc">注册</string>
+    <string name="dl">登录</string>
+    <string name="ps">18611352766</string>
+    <string name="sctx">上传头像</string>
+    <string name="shopcar">购物车</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shop_car_bg">
+
+        <TextView
+            android:id="@+id/shop_car_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shop_car_bg"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:padding="10dp"
+            android:text="美妆护肤"
+            android:textColor="@color/color_ff5"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/shop_car_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shop_car_bg"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:padding="10dp"
+            android:text="美妆护肤"
+            android:textColor="@color/color_ff5"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/shop_car_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shop_car_bg"
+            android:gravity="center"
+            android:minWidth="100dp"
+            android:padding="10dp"
+            android:text="美妆护肤"
+            android:textColor="@color/color_ff5"
+            android:textSize="14sp" />
+
+
+        <com.yanzhenjie.recyclerview.SwipeRecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="afterDescendants"
+            android:layout_below="@+id/shop_car_name"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+    <Button
+        android:id="@+id/xcbu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相册"
+        />
+    <Button
+        android:id="@+id/xjbu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相机"
+        />
+    <Button
+        android:id="@+id/scbu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传头像"
+        />
+    <Button
+        android:id="@+id/shopcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shopcar"
+        />
+
+<!--注意这个是包名修改成自己的（com.zd.retrofit_rxjava2.view）-->
+    <com.zd.retrofit_rxjava2.view.ShopAddView
+        android:id="@+id/addview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.zd.retrofit_rxjava2.view.ShopAddView>
+
+
+</LinearLayout>
